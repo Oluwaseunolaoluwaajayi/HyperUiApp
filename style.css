@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.genLayout {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.innerNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1rem;
+}
+
+.innerNav > h1 > {
+  text-transform: capitalize;
+  color: #ff6555;
+  font-weight: 900; /* Corrected from 900px to 900 */
+}
+.innerNav > h1 > span {
+  text-transform: capitalize;
+  font-weight: 900;
+}
+
+.navItems {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navItems > a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.btn {
+  display: flex;
+  gap: 15px;
+}
+
+.btn > button {
+  padding: 0.4rem 1.6rem;
+  border-radius: 25px;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.btn > button:first-child {
+  color: #ff6555;
+  border: 1px solid #ff6555;
+}
+
+.btn > button:last-child {
+  background-color: #ff6555;
+  color: white;
+  border: 1px solid #ff6555;
+}
+.template {
+  border: 10px solid cornsilk;
+  padding: 0%;
+}
+
+.banner {
+  margin-top: 2rem;
+  display: flex;
+  gap: 20px;
+}
+
+.bannercontent {
+  flex: 1;
+}
+
+.bannercontent > span {
+  color: #ff6555;
+  text-transform: capitalize;
+}
+
+.bannercontent > h1 {
+  line-height: 2.6rem;
+  width: 400px;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  margin-block: 1rem;
+}
+
+.bannercontent > p {
+  font-size: 15.5px;
+  opacity: 0.4;
+  font-weight: 600; /* Corrected from 600px to 600 */
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-block: 1rem;
+}
+
+.info > button {
+  background-color: #ff6555;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  color: #ff6555; /* Changed text color to white for visibility */
+  text-transform: capitalize;
+  font-size: 10px; /* Increased font size for better readability */
+}
+
+.innerinfo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.innerinfo > span {
+  width: 25px;
+  height: 25px;
+  background-color: #ff6555;
+  box-shadow: 0.1rem 0.1rem 10px grey;
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  justify-content: center; /* Center the icon inside the circle */
+}
+
+.innerinfo > span > i {
+  font-size: 12px; /* Adjusted font size for better fit */
+  color: #ff6555; /* Changed icon color to white for contrast */
+}
+
+.bannerImg {
+  /* border: 2px solid red; */
+  flex: 1;
+}
+.bannerImg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: -2.3rem;
+  border-radius: 25px;
+}
+
+.searchwrapper {
+  border-radius: 25px;
+  width: 350px;
+  padding: 0.2rem;
+  box-shadow: 0.1rem 0.1rem 5px grey;
+  display: flex;
+}
+
+.innersearchwrapper {
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.innersearchwrapper > input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  width: 100%;
+  padding: 0.2rem 1rem;
+}
+
+.innersearchwrapper > input::placeholder {
+  font-size: 10px;
+  opacity: 0.7;
+  font-weight: 600;
+}
+
+.searchwrapper > button {
+  background-color: #ff6555;
+  border: none;
+  border-radius: 25px;
+  padding: 0.2rem 0.8rem;
+  color: #ff6555; /* Changed text color to white for better visibility */
+  text-transform: capitalize;
+  font-size: 12px; /* Adjusted for consistency */
+  font-weight: 400px;
+}
+
+.lowerBar {
+  display: flex;
+
+  font-size: 20px;
+  color: #a9b2b6;
+}
