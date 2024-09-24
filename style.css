@@ -19,7 +19,7 @@
   padding-block: 1rem;
 }
 
-.innerNav > h1 > {
+.innerNav > h1 {
   text-transform: capitalize;
   color: #ff6555;
   font-weight: 900; /* Corrected from 900px to 900 */
@@ -71,6 +71,7 @@
 .banner {
   margin-top: 2rem;
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
@@ -109,7 +110,7 @@
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 25px;
-  color: #ff6555; /* Changed text color to white for visibility */
+  color: #fff; /* Changed text color to white for visibility */
   text-transform: capitalize;
   font-size: 10px; /* Increased font size for better readability */
 }
@@ -133,12 +134,13 @@
 
 .innerinfo > span > i {
   font-size: 12px; /* Adjusted font size for better fit */
-  color: #ff6555; /* Changed icon color to white for contrast */
+  color: #fff; /* Changed icon color to white for contrast */
 }
 
 .bannerImg {
   /* border: 2px solid red; */
-  flex: 1;
+  width: 40%;
+  padding-block: 2rem;
 }
 .bannerImg > img {
   width: 100%;
@@ -180,7 +182,7 @@
   border: none;
   border-radius: 25px;
   padding: 0.2rem 0.8rem;
-  color: #ff6555; /* Changed text color to white for better visibility */
+  color: white; /* Changed text color to white for better visibility */
   text-transform: capitalize;
   font-size: 12px; /* Adjusted for consistency */
   font-weight: 400px;
@@ -190,5 +192,4 @@
   display: flex;
 
   font-size: 20px;
-  color: #a9b2b6;
 }
